@@ -1,0 +1,61 @@
+*{
+	padding: 0%;
+	margin: 0%;
+	box-sizing: border-box;
+}
+
+#movies img,
+#movie img {
+  width: 100%;
+}
+
+@media (min-width: 960px) {
+  #movies .col-md-3 .well {
+    height: 390px;
+  }
+
+  #movies .col-md-3 img {
+    height: 240px;
+  }
+}
+
+body{
+	background-color: lightsteelblue;
+	height: 100%;
+	margin: 0%;
+	box-sizing: border-box;
+}
+
+#navBar{
+	display: flex;
+	justify-content: center;
+	
+}
+#navsec{
+	padding: 2px;
+	width: 70%;
+	/* background-color: paleturquoise; */
+}
+
+
+
+#navBar li{
+	list-style: none;
+}
+
+li{	
+	display: flex;
+	flex-direction: row;
+	padding: 1%;
+}
+
+#navBar li a{
+	text-decoration: none;
+}
+
+#navBar ul{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between
+}
+

@@ -1,0 +1,116 @@
+*{
+	padding: 0%;
+	margin: 0%;
+	box-sizing: border-box;
+}
+
+#movies img,
+#movie img {
+  width: 100%;
+}
+
+@media (min-width: 960px) {
+  #movies .col-md-3 .well {
+    height: 390px;
+  }
+
+  #movies .col-md-3 img {
+    height: 240px;
+  }
+}
+
+body{
+	background-color: lightsteelblue;
+	height: 100%;
+	margin: 0%;
+	box-sizing: border-box;
+}
+
+#navBar{
+	display: flex;
+	justify-content: center;
+	
+}
+#navsec{
+	padding: 2px;
+	width: 70%;
+	/* background-color: paleturquoise; */
+}
+
+
+
+#navBar li{
+	list-style: none;
+}
+
+li{	
+	display: flex;
+	flex-direction: row;
+	padding: 1%;
+}
+
+#navBar li a{
+	text-decoration: none;
+}
+
+#navBar ul{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between
+}
+
+.bookmarks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.bookmarks ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.bookmarks li {
+  display: flex;
+  flex-direction: row; /* Updated to display items horizontally */
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	width: 50rem;
+	justify-content: center;
+}
+
+.bookmarks li span {
+  /* Added style for the movie name */
+  flex-grow: 1; /* Allow the movie name to take up the available space */
+}
+
+#delbtn {
+  display: inline-block;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid #e74c3c; /* Red border color */
+  color: #e74c3c; /* Red text color */
+  background-color: #fff; /* White background color */
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+  margin-bottom: 2%;
+}
+
+#delbtn:hover {
+  background-color: #e74c3c; /* Red background color on hover */
+  color: #fff; /* White text color on hover */
+}
+
+
+

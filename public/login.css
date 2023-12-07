@@ -1,0 +1,115 @@
+*{
+	padding: 0%;
+	margin: 0%;
+	box-sizing: border-box;
+}
+
+#movies img,
+#movie img {
+  width: 100%;
+}
+
+@media (min-width: 960px) {
+  #movies .col-md-3 .well {
+    height: 390px;
+  }
+
+  #movies .col-md-3 img {
+    height: 240px;
+  }
+}
+
+body{
+	background-color: lightsteelblue;
+	height: 100%;
+	margin: 0%;
+	box-sizing: border-box;
+}
+
+#navBar{
+	display: flex;
+	justify-content: center;
+	
+}
+#navsec{
+	padding: 2px;
+	width: 70%;
+	/* background-color: paleturquoise; */
+}
+
+
+
+#navBar li{
+	list-style: none;
+}
+
+li{	
+	display: flex;
+	flex-direction: row;
+	padding: 1%;
+}
+
+#navBar li a{
+	text-decoration: none;
+}
+
+#navBar ul{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between
+}
+
+#loginContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: 50px; /* Add margin at the top for better spacing */
+}
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.submit-btn {
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #555;
+}
+
+#loginForm {
+    width: 100%;
+    max-width: 300px; /* Set a maximum width for the form */
+    margin: 0 auto; /* Center the form horizontally */
+}
+
+.submit-btn {
+    width: 100%; /* Make the button take full width of its container */
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.submit-btn:hover {
+    background-color: #555;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+
+
+
+
